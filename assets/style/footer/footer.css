@@ -1,0 +1,34 @@
+.footer {
+  padding: 5px 0 69px 0;
+  background-color: var(--background-dark, #2f324b);
+}
+
+.footer__designer {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--text-white, #ffffff);
+}
+
+@media (max-width:1023px) {
+  .footer {
+    padding: 23px 0 69px 0;
+    background-color: var(--background-dark, #2f324b);
+  }  
+
+  .footer__designer {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width:769px) {
+  .footer {
+    padding: 0;
+  }
+
+  .footer__designer {
+    opacity: 0.5;
+    padding: 15px 0;
+    background: #2a2c3f;
+  }
+}
