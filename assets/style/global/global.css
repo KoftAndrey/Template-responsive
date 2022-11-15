@@ -53,7 +53,7 @@ body {
   font-size: 22px;
   line-height: 31px;
   text-align: center;
-  background-color: var(--background-white, #2f324b);
+  background-color: var(--background-white, #f9f9f9);
 }
 
 img, svg {
@@ -107,17 +107,6 @@ details summary::-webkit-details-marker,
 details summary::marker {
   display: none;
   content: "";
-}
-
-.swiper {
-  max-width: 934px;
-  margin: 0 auto;
-}
-
-.swiper-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 @media (max-width:1023px) {
