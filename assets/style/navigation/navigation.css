@@ -45,6 +45,7 @@
 }
 
 .navigation__phone {
+    padding: 3px 0 0 0;
     margin: 0 0 4px 0;
     font-size: 24px;
     line-height: 28px;
@@ -61,7 +62,7 @@
 
 .navigation__button {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 21px;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     color: inherit;
@@ -92,6 +93,11 @@
     border-bottom: 1px solid #4a76a8; 
 }
 
+.navigation_type_footer .navigation__phone {
+    padding: 0;
+    margin: 0 0 3px 0;
+}
+
 @media (max-width:1023px) {
     .navigation {
         padding: 26px 0;
@@ -102,7 +108,8 @@
     }
 
     .navigation_type_footer {
-        margin: 0 0 -63px 0;
+        padding: 15px 0 37px 0;
+        margin: 0 0 -75px 0;
     }
 
     .navigation__logo  {
@@ -111,6 +118,7 @@
     }
 
     .navigation__phone {
+        padding: 0;
         margin: 0 0 5px 0;
         font-size: 21px;
         line-height: 25px;
@@ -119,6 +127,10 @@
     .navigation__button {
         font-size: 13px;
         line-height: 15px;
+    }
+
+    .navigation_type_footer .navigation__button {
+        line-height: 19px;
     }
 }
 
@@ -140,7 +152,7 @@
     }
 
     .navigation_type_footer {
-        padding: 25px 0;
+        padding: 26px 0 25px 0;
     }
 
     .navigation__logo  {
@@ -178,5 +190,9 @@
 
     .navigation__button::after {
         display: inline-block;
+    }
+
+    .navigation_type_footer .navigation__info-block {
+        padding: 0 0 0 1px;
     }
 }

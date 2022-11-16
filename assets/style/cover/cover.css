@@ -4,13 +4,13 @@
 }
 
 .cover__title {
-    margin: 0 0 35px 0;
+    margin: 0 0 32px 0;
     opacity: .86;
 }
 
 .cover__text {
-    margin: 0 auto 90px auto;
-    max-width: 920px;
+    margin: 0 auto 89px auto;
+    max-width: 950px;
     font-weight: 400;
     opacity: .75;
 }
@@ -25,7 +25,8 @@
     }
 
     .cover__text{
-        margin: 0 auto 60px auto;
+        margin: 0 auto 57px auto;
+        max-width: 760px;
     }
 }
 
@@ -35,10 +36,14 @@
     }
 
     .cover__title{
-        margin: 0 0 23px 0;
+        margin: 0 0 25px 0;
     }
 
     .cover__text{
         margin: 0 auto 54px auto;
+    }
+
+    .cover__text-hide {
+        display: none;
     }
 }

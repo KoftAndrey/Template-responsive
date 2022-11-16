@@ -116,9 +116,13 @@ details summary::marker {
   }
 
   .container {
-    max-width: 930px;
-    padding: 0 30px;
+    max-width: 960px;
+    padding: 0 45px;
     margin: 0 auto;
+  }
+
+  .container_navigation {
+    padding: 0;
   }
 }
 

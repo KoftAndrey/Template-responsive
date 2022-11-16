@@ -71,7 +71,7 @@
 
 .section__button {
     display: inline-block;
-    padding: 11px 38px 14px 38px;
+    padding: 11px 36px 12px 36px;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
@@ -84,7 +84,7 @@
 }
 
 .section__button_padding_wide {
-    padding: 11px 48px 14px 48px;
+    padding: 11px 46px 12px 46px;
 }
 
 .section__button:hover, .section__button:focus {
@@ -161,24 +161,28 @@
     }
 
     .section__subtitle_decoration_lines::before {
-        left: -42x;
+        top: calc(50% + 2px);
+        left: -46px;
         width: 20px;
         height: 1px;
     }
 
     .section__subtitle_decoration_lines::after {
-        right: -42px;
+        top: calc(50% + 2px);
+        right: -47px;
         width: 20px;
         height: 1px;
     }
 
     .section__button {
-        padding: 9px 28px 10px 28px;
+        padding: 9px 28px 8px 28px;
+        margin: 0 2px 0 0;
         font-size: 16px;
         line-height: 19px;
     }
     
     .section__button_padding_wide {
-        padding: 9px 28px 10px 28px;
+        padding: 8px 38px 9px 38px;
+        margin: 0;
     }
 }
